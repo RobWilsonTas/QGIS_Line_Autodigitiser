@@ -109,10 +109,10 @@ class AutodigitiserPolygons(QgsProcessingAlgorithm):
         return 'Autodigitiser (Polygons)'
 
     def group(self):
-        return 'NB Custom Scripts'
+        return 'Custom Scripts'
 
     def groupId(self):
-        return 'nbcustomscripts'
+        return 'customscripts'
 
     def createInstance(self):
         return AutodigitiserPolygons()
